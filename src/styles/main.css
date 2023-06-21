@@ -235,7 +235,7 @@ body {
 
 /* ====== commitment area ====== */
 .main-wrapper {
-    height: calc(100vh - 72px) !important;
+    max-height: calc(100vh - 72px) !important;
     padding: 16px;
 }
 .main-wrapper .main-container {
