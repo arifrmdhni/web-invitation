@@ -25,7 +25,7 @@ const Rundown = () => {
             <div className="rundown-template">
               <h5 className="rundown-time-text">Keberangkatan</h5>
               <div className="rundown-description-wrapper">
-                <p className="rundown-description-text">Check–in Panitia Jakarta</p>
+                <p className="rundown-description-text">Check–in Peserta Jakarta</p>
                 {/* <div className="rundown-description-list">
                   <span>•</span>
                   <span>Dresscode: Kaos Putih dan Topi (disiapkan oleh Panitia, dan dihimbau menggunakan Jaket)</span>
@@ -164,7 +164,7 @@ const Rundown = () => {
             <div className="rundown-template">
               <h5 className="rundown-time-text">Back to Origin</h5>
               <div className="rundown-description-wrapper">
-                <p className="rundown-description-text">Panitia Jakarta</p>
+                <p className="rundown-description-text">Check-out Peserta Jakarta</p>
                 {/* <div className="rundown-description-list">
                   <span>•</span>
                   <span>Dresscode: Kaos Putih dan Topi (disiapkan oleh Panitia, dan dihimbau menggunakan Jaket)</span>
