@@ -1,0 +1,117 @@
+@media screen and (max-width: 767px) {
+  body {
+      background-image: url('../../assets/images/btn-background-mobile.jpg');
+  }
+  .card-header .logo-wrapper img {
+      height: 16px !important;
+  }
+  .card-invite .invite-title-wrapper {
+      width: 100% !important;
+  }
+}
+@media screen and (max-width: 425px) {
+    .button-invite>button {
+        font-size: 12px;
+    }
+    .invite-text-wrapper-mobile {
+        width: 100% !important;
+    }
+    .rundown-container {
+        text-align: left !important;
+        padding: 0 16px !important;
+    }
+    .event-information {
+        width: 12rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    .button-invite>button {
+        font-size: 12px;
+        margin: 50px 0 0;
+        padding: 5px 22px;
+        line-height: 1.50;
+    }
+    .speakers-container .speakers-wrapper .speakers-info img {
+        height: 125px !important;
+        width: 125px !important;
+    }
+    .card-invite .invite-title {
+        font-size: 28px;
+    }
+    .card-invite .invite-text {
+        font-size: 12px;
+    }
+    .card-invite .card-tagline {
+        font-size: 14px;
+    }
+    .card-invite p {
+        margin: 32px 0 0 !important;
+    }
+    .card-invite .guest-invited {
+        font-size: 16px;
+    }
+    .button-invite>button {
+        margin: 25px 0 0 0;
+    }
+    .invite-text-description {
+        font-size: 14px !important;
+        line-height: 18pt !important;
+    }
+    .rundown-container .rundown-wrapper .rundown-template .rundown-time-text,
+    .rundown-container .rundown-wrapper .rundown-template .rundown-description-wrapper .rundown-description-text {
+        font-size: 14px;
+    }
+    .poi-wrapper .poi-info img, .entertain-wrapper .entertain-info img {
+        height: 80px;
+    }
+}
+@media (min-width: 321px) and (max-width: 375px) {
+    .button-invite>button {
+        margin: 50px 0 0;
+        padding: 5px 22px;
+        line-height: 1.50;
+    }
+    .speakers-container .speakers-wrapper .speakers-info img {
+        height: 150px !important;
+        width: 150px !important;
+    }
+    .card-invite .invite-title {
+        font-size: 34px;
+    }
+    .card-invite .invite-text {
+        font-size: 14px;
+    }
+    .card-invite .card-tagline {
+        font-size: 16px;
+    }
+    .card-invite p {
+        margin: 32px 0 0 !important;
+    }
+    .card-invite .guest-invited {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 767px) {
+  .card-invite .invite-title {
+      font-size: 44px;
+  }
+  .card-invite .invite-text {
+      font-size: 16px;
+  }
+  .card-invite .card-tagline {
+      font-size: 20px;
+  }
+  .card-invite p {
+      margin: 32px 0 0 !important;
+  }
+  .card-invite .guest-invited {
+      font-size: 20px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .invite-text-wrapper-mobile {
+      width: 50% !important;
+  }
+}
