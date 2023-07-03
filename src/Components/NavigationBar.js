@@ -42,7 +42,7 @@ const NavigationBar = () => {
             <span className="click-effect"></span>
           </div>
         </button>
-        <button onClick={() => navigate('/main/point-of-interest')} className="navigation-button">
+        {/* <button onClick={() => navigate('/main/point-of-interest')} className="navigation-button">
           <div className="svg-wrapper">
             <svg className="button-icon" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AutoStoriesIcon" height={24}>
               <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="rgb(255, 255, 255)"></path>
@@ -50,7 +50,7 @@ const NavigationBar = () => {
             <div className="button-text">Point of Interest</div>
             <span className="click-effect"></span>
           </div>
-        </button>
+        </button> */}
         <button onClick={() => navigate('/main/entertainment')} className="navigation-button">
           <div className="svg-wrapper">
             <svg className="button-icon" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AutoStoriesIcon" height={24}>
