@@ -10,6 +10,7 @@ import NavigationBar from "../Components/NavigationBar"
 // import fotoPresidentPwC from '../assets/images/speakers/marina-r-tusin.6b8f8de8c515aa06eef3.jpg'
 // import fotoNickArnold from '../assets/images/speakers/nick-arnold.3bb7ec84405086508680.jpeg'
 import mysteryGuest from '../assets/images/speakers/mystery-guest.png'
+import chiefKumparanBisnis from '../assets/images/speakers/chief_kumparan_bisnis.jpeg'
 
 const Speakers = () => {
   return (
@@ -27,16 +28,16 @@ const Speakers = () => {
         <div className="speakers-container">
           <div className="speakers-wrapper">
             <div className="speakers-info d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="2000">
-              <img src={mysteryGuest}></img>
+              <img src={chiefKumparanBisnis}></img>
               <div className="speakers-detail d-flex justify-content-center">
-                <p className="speakers-name">Febby Siahaan</p>
-                <p className="speakers-position">TBC</p>
+                <p className="speakers-name">M. Wendiyanto Saputro</p>
+                <p className="speakers-position">Chief of KumparanBisnis</p>
               </div>
             </div>
             <div className="speakers-info d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="2500">
               <div className="speakers-detail d-flex justify-content-center">
                 <p className="speakers-name">TBC</p>
-                <p className="speakers-position">Pemimpin Redaksi Antara</p>
+                <p className="speakers-position">TBC</p>
               </div>
               <img src={mysteryGuest}></img>
             </div>
