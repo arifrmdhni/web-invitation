@@ -113,6 +113,8 @@ body>div {
 }
 .navbar .navbar-wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: nowrap;
   gap: 8px;
   width: calc(678px);
