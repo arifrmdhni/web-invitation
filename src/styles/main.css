@@ -155,6 +155,8 @@ body>div {
   line-height: 9pt;
   height: 20pt;
   font-family: 'Futura';
+  display: flex;
+  align-items: center;
 }
 .navbar .navbar-wrapper .navigation-button .svg-wrapper span {
   overflow: hidden;
