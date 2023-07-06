@@ -1,15 +1,9 @@
 import CardHeader from "../Components/CardHeader"
 import NavigationBar from "../Components/NavigationBar"
-// import logoBTN from '../assets/images/logo/btn.18889c77112ab26987de.png'
-// import logoBUMN from '../assets/images/logo/bumn-logo.png'
-// import logoAsean from '../assets/images/logo/asean2.c21108c2f568656a0d69.png'
-// import logoKBUMN from '../assets/images/logo/kbumn-horizontal.934e1b51bbd26f3e54d3.png'
-// import fotoDirut from '../assets/images/speakers/dirut.25cb16ffad768760c800.jpg'
-// import fotoKomisaris from '../assets/images/speakers/komisaris.3395e33a97f16af7b9ba.jpg'
-// import fotoDirFinance from '../assets/images/speakers/dirfinance.036285246e98d74fb12a.jpg'
-// import fotoPresidentPwC from '../assets/images/speakers/marina-r-tusin.6b8f8de8c515aa06eef3.jpg'
-// import fotoNickArnold from '../assets/images/speakers/nick-arnold.3bb7ec84405086508680.jpeg'
-import mysteryGuest from '../assets/images/speakers/mystery-guest.png'
+import ramonArmando from "../assets/images/speakers/ramon-armando.png"
+import ekoWaluyo from "../assets/images/speakers/eko-waluyo.png"
+import aryaSinulingga from '../assets/images/speakers/arya-sinulingga.png'
+import febrinaSiahaan from "../assets/images/speakers/febrina-siahaan.png"
 import chiefKumparanBisnis from '../assets/images/speakers/chief_kumparan_bisnis.jpeg'
 
 const Speakers = () => {
@@ -27,19 +21,40 @@ const Speakers = () => {
         </div>
         <div className="speakers-container">
           <div className="speakers-wrapper">
-            <div className="speakers-info d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="2000">
-              <img src={chiefKumparanBisnis}></img>
+            <div className="speakers-info d-flex justify-content-center fade-in-right" >
+              <img src={ramonArmando}></img>
               <div className="speakers-detail d-flex justify-content-center">
-                <p className="speakers-name">M. Wendiyanto Saputro</p>
-                <p className="speakers-position">Chief of KumparanBisnis</p>
+                <p className="speakers-name">Ramon Armando</p>
+                <p className="speakers-position">Corporate Secretary Division Head</p>
               </div>
             </div>
-            <div className="speakers-info d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="2500">
+            <div className="speakers-info d-flex justify-content-center fade-in-left" >
               <div className="speakers-detail d-flex justify-content-center">
-                <p className="speakers-name">TBC</p>
-                <p className="speakers-position">TBC</p>
+                <p className="speakers-name">Eko Waluyo</p>
+                <p className="speakers-position">Direktur Human Capital, Compliance, and Legal</p>
               </div>
-              <img src={mysteryGuest}></img>
+              <img src={ekoWaluyo}></img>
+            </div>
+            <div className="speakers-info d-flex justify-content-center fade-in-right" >
+              <img src={aryaSinulingga}></img>
+              <div className="speakers-detail d-flex justify-content-center">
+                <p className="speakers-name">Arya Sinulingga</p>
+                <p className="speakers-position">Staf Khusus III Menteri BUMN</p>
+              </div>
+            </div>
+            <div className="speakers-info d-flex justify-content-center fade-in-left" >
+              <div className="speakers-detail d-flex justify-content-center">
+                <p className="speakers-name">Febrina Siahaan</p>
+                <p className="speakers-position">Professional Consultant in Media & Communication</p>
+              </div>
+              <img src={febrinaSiahaan}></img>
+            </div>
+            <div className="speakers-info d-flex justify-content-center fade-in-right" >
+              <img src={chiefKumparanBisnis}></img>
+              <div className="speakers-detail d-flex justify-content-center">
+                <p className="speakers-name">M. Wendiyanto Saputra</p>
+                <p className="speakers-position">Chief of KumparanBisnis</p>
+              </div>
             </div>
             {/* <div className="speakers-info d-flex justify-content-center">
               <img src={fotoDirFinance}></img>
