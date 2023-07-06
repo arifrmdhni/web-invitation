@@ -350,6 +350,7 @@ body>div {
   display: grid;
   grid-template-columns: 110px auto;
   gap: 5px;
+  padding: 5px 0;
 }
 .rundown-container .rundown-wrapper .rundown-template .rundown-time-text,
 .rundown-container .rundown-wrapper .rundown-template .rundown-description-wrapper .rundown-description-text{
