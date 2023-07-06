@@ -158,7 +158,7 @@ const Rundown = () => {
             <div className="rundown-template">
               <h5 className="rundown-time-text">19:00 – 19:05</h5>
               <div className="rundown-description-wrapper">
-                <p className="rundown-description-text">Peserta Peserta Berkumpul di Lobby</p>
+                <p className="rundown-description-text">Peserta Berkumpul di Lobby</p>
               </div>
             </div>
             <div className="rundown-template">
