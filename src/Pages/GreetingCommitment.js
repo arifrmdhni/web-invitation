@@ -77,9 +77,9 @@ const GreetingCommitment = () => {
       setTime('')
     })
 
-    // setTimeout(function() {
-    //   window.location.reload()
-    // }, 4000)
+    setTimeout(function() {
+      window.location.reload()
+    }, 4000)
   }
 
   const [showLoader, setShowLoader] = React.useState(false)
