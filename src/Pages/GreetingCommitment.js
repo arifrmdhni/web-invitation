@@ -25,7 +25,7 @@ const GreetingCommitment = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_i3u71lj', 'template_c2af4xd', form.current, 'r_x4rVsYHw4TTjaTl').then((result) => {
+    emailjs.sendForm('service_o98ted4', 'template_vvnvt58', form.current, 'dH4hHGCQi96S8zn9y').then((result) => {
       // alert(result.text)
       const Toast = Swal.mixin({
         toast: true,
