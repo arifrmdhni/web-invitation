@@ -51,7 +51,7 @@ function App() {
         </Routes>
         
         <div className="button-music-wrapper">
-          <button onClick={toggleSound} className="button-music" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="3000">{playing ? iconMusicPlay : iconMusicPause}
+          <button onClick={toggleSound} className="button-music" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1500">{playing ? iconMusicPlay : iconMusicPause}
           </button>
         </div>
       </Router>
