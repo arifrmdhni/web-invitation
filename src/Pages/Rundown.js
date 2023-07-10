@@ -133,14 +133,14 @@ const Rundown = () => {
               <h5 className="rundown-time-text">15:00 – 16:00</h5>
               <div className="rundown-description-wrapper">
                 <p className="rundown-description-text">Pengajar 2</p>
-                <p className="rundown-description-text"><strong>M. Wendiyanto Saputra</strong> (Chief of KumparanBisnis)</p>
+                <p className="rundown-description-text"><strong>M. Wendiyanto Saputro</strong> (Chief of KumparanBisnis)</p>
               </div>
             </div>
             <div className="rundown-template">
               <h5 className="rundown-time-text">16:00 – 17:00</h5>
               <div className="rundown-description-wrapper">
                 <p className="rundown-description-text">Pengajar 2 + QnA</p>
-                <p className="rundown-description-text"><strong>M. Wendiyanto Saputra</strong> (Chief of KumparanBisnis)</p>
+                <p className="rundown-description-text"><strong>M. Wendiyanto Saputro</strong> (Chief of KumparanBisnis)</p>
               </div>
             </div>
             <div className="rundown-template">
