@@ -100,7 +100,7 @@ const Rundown = () => {
               <h5 className="rundown-time-text">09:35 – 09:40</h5>
               <div className="rundown-description-wrapper">
                 <p className="rundown-description-text">Sambutan Corsec Bank BTN</p>
-                <p className="rundown-description-text"><strong>Ramon Armando </strong>(Coporate Secretary Division Head)</p>
+                <p className="rundown-description-text"><strong>Ramon Armando </strong>(Corporate Secretary Division Head)</p>
               </div>
             </div>
             <div className="rundown-template">
