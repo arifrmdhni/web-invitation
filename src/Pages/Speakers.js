@@ -22,10 +22,10 @@ const Speakers = () => {
         <div className="speakers-container">
           <div className="speakers-wrapper">
             <div className="speakers-info d-flex justify-content-center fade-in-right" >
-              <img src={ramonArmando}></img>
+              <img src={aryaSinulingga}></img>
               <div className="speakers-detail d-flex justify-content-center">
-                <p className="speakers-name">Ramon Armando</p>
-                <p className="speakers-position">Corporate Secretary Division Head</p>
+                <p className="speakers-name">Arya Sinulingga</p>
+                <p className="speakers-position">Staf Khusus III Menteri BUMN</p>
               </div>
             </div>
             <div className="speakers-info d-flex justify-content-center fade-in-left" >
@@ -36,10 +36,10 @@ const Speakers = () => {
               <img src={ekoWaluyo}></img>
             </div>
             <div className="speakers-info d-flex justify-content-center fade-in-right" >
-              <img src={aryaSinulingga}></img>
+              <img src={ramonArmando}></img>
               <div className="speakers-detail d-flex justify-content-center">
-                <p className="speakers-name">Arya Sinulingga</p>
-                <p className="speakers-position">Staf Khusus III Menteri BUMN</p>
+                <p className="speakers-name">Ramon Armando</p>
+                <p className="speakers-position">Corporate Secretary Division Head</p>
               </div>
             </div>
             <div className="speakers-info d-flex justify-content-center fade-in-left" >
