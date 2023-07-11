@@ -153,7 +153,7 @@ const Attendance = () => {
               <div className="select-wrapper">
                 <label className="" htmlFor="sesi">Sesi Kehadiran:</label>
                 <select htmlFor="sesi" onChange={(e) => {setSesiAttendance(e.target.value); handleInputType()}} name="sesi_attendance" value={sesi_attendance} required>
-                  <option htmlFor="sesi" readOnly>-- Pilih Opsi Sesi --</option>
+                  <option htmlFor="sesi" disabled selected>-- Pilih Opsi Sesi --</option>
                   <option htmlFor="sesi" value="pagi">Pagi</option>
                   <option htmlFor="sesi" value="siang">Siang</option>
                   <option htmlFor="sesi" value="malam">Malam</option>
