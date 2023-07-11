@@ -145,7 +145,7 @@ const Attendance = () => {
               <div className="select-wrapper">
                 <label className="" htmlFor="jenis">Peserta Online/Offline:</label>
                 <select htmlFor="jenis" onChange={(e) => {setJenisPeserta(e.target.value); handleInputType()}} name="jenis_peserta" value={jenis_peserta} required>
-                  <option htmlFor="jenis" readOnly>-- Pilih Opsi Online/Offline --</option>
+                  <option htmlFor="jenis" disabled selected>-- Pilih Opsi Online/Offline --</option>
                   <option htmlFor="jenis" value="online">Online</option>
                   <option htmlFor="jenis" value="offline">Offline</option>
                 </select>
