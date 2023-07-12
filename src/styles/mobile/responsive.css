@@ -8,6 +8,9 @@
   .card-invite .invite-title-wrapper {
       width: 100% !important;
   }
+  .mobile-wrapper {
+    display: block !important;
+  }
 }
 @media screen and (max-width: 425px) {
     .speakers-container .speakers-wrapper .speakers-info img {
