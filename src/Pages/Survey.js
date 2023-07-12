@@ -261,7 +261,7 @@ const Questionnaire = () => {
                   <ul>
                     <li>
                       <input onChange={(e) => {setAnswer7(e.target.value); }} type="radio" value="Ya" name="answer_7" id="otherAnswer7" required/> Ya
-                      <input onChange={(e) => {setAnswer7(e.target.value); }} type="text" className="input-answer" name="answer_7" id="inputOtherAnswer" placeholder="seberapa sering?"/>
+                      <input onClick={(e) => showInput()} onChange={(e) => {setAnswer7(e.target.value); }} type="text" className="input-answer hidden" name="answer_7" id="inputOtherAnswer" placeholder="seberapa sering?"/>
                     </li>
                     <li>
                       <input onChange={(e) => {setAnswer7(e.target.value); }} type="radio" value="Tidak" name="answer_7" id="answer7" /> Tidak
