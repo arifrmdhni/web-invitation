@@ -107,7 +107,8 @@ const Questionnaire = () => {
     }, 4000)
   }
 
-  window.onload = () => {
+  const showInput = (e) => {
+    e.preventDefault();
     const radioButtonYa = document.getElementById("otherAnswer7")
     const radioButtonNot = document.getElementById("answer7")
     const inputOtherAnswer = document.getElementById("inputOtherAnswer")
