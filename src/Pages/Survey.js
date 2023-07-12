@@ -107,8 +107,7 @@ const Questionnaire = () => {
     }, 4000)
   }
 
-  const showInput = (e) => {
-    e.preventDefault();
+  window.onload = () => {
     const radioButtonYa = document.getElementById("otherAnswer7")
     const radioButtonNot = document.getElementById("answer7")
     const inputOtherAnswer = document.getElementById("inputOtherAnswer")
@@ -261,7 +260,7 @@ const Questionnaire = () => {
                   <ul>
                     <li>
                       <input onChange={(e) => {setAnswer7(e.target.value); }} type="radio" value="Ya" name="answer_7" id="otherAnswer7" required/> Ya
-                      <input onClick={(e) => showInput()} onChange={(e) => {setAnswer7(e.target.value); }} type="text" className="input-answer hidden" name="answer_7" id="inputOtherAnswer" placeholder="seberapa sering?"/>
+                      <input onChange={(e) => {setAnswer7(e.target.value); }} type="text" className="input-answer" name="answer_7" id="inputOtherAnswer" placeholder="seberapa sering?"/>
                     </li>
                     <li>
                       <input onChange={(e) => {setAnswer7(e.target.value); }} type="radio" value="Tidak" name="answer_7" id="answer7" /> Tidak
