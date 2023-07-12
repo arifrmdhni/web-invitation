@@ -204,7 +204,10 @@ const Questionnaire = () => {
                       <input onChange={(e) => {setAnswer3(e.target.value); }} type="radio" value="Melemparkan otoritas menjawab ke staf/ petugas bank yang lain" name="answer_3" /> Melemparkan otoritas menjawab ke staf/ petugas bank yang lain
                     </li>
                     <li>
-                      <input onChange={(e) => {setAnswer3(e.target.value); }} type="radio" value="Memberikan jawaban normatif (mengusir)" name="answer_3" /> Memberikan jawaban normatif (mengusir)
+                      <input onChange={(e) => {setAnswer3(e.target.value); }} type="radio" value="Memberikan jawaban normatif" name="answer_3" /> Memberikan jawaban normatif
+                    </li>
+                    <li>
+                      <input onChange={(e) => {setAnswer3(e.target.value); }} type="radio" value="Mengusir" name="answer_3" /> Mengusir
                     </li>
                   </ul>
                 </div>
