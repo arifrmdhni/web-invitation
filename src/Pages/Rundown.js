@@ -83,24 +83,24 @@ const Rundown = () => {
               </div>
             </div>
             <div className="rundown-template">
-              <h5 className="rundown-time-text">08:05 – 09:05</h5>
+              <h5 className="rundown-time-text">08:05 – 08:10</h5>
               <div className="rundown-description-wrapper">
-                <p className="rundown-description-text">Keynote Speech + QnA</p>
-                <p className="rundown-description-text"><strong>Arya Sinulingga </strong>(Staf Khusus III Menteri BUMN)</p>
+                <p className="rundown-description-text">Sambutan Corsec Bank BTN</p>
+                <p className="rundown-description-text"><strong>Ramon Armando </strong>(Corporate Secretary Division Head)</p>
               </div>
             </div>
             <div className="rundown-template">
-              <h5 className="rundown-time-text">09:05 – 09:35</h5>
+              <h5 className="rundown-time-text">08:10 – 08:40</h5>
               <div className="rundown-description-wrapper">
                 <p className="rundown-description-text">Sambutan Direksi Bank BTN</p>
                 <p className="rundown-description-text"><strong>Eko Waluyo </strong>(Direktur Human Capital, Compliance, and Legal)</p>
               </div>
             </div>
             <div className="rundown-template">
-              <h5 className="rundown-time-text">09:35 – 09:40</h5>
+              <h5 className="rundown-time-text">08:40 – 09:40</h5>
               <div className="rundown-description-wrapper">
-                <p className="rundown-description-text">Sambutan Corsec Bank BTN</p>
-                <p className="rundown-description-text"><strong>Ramon Armando </strong>(Corporate Secretary Division Head)</p>
+                <p className="rundown-description-text">Keynote Speech + QnA</p>
+                <p className="rundown-description-text"><strong>Arya Sinulingga </strong>(Staf Khusus III Menteri BUMN)</p>
               </div>
             </div>
             <div className="rundown-template">
