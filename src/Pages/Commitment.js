@@ -20,7 +20,7 @@ const Commitment = () => {
       </div>
       <div className="button-commitment-wrapper">
           <Button name="Download Materi" />
-          <Button onClick={() => navigate('/main/survey')} name="Isi Absensi/Kuesioner" />
+          <Button onClick={() => navigate('/main/survey')} name="Absensi/Kuesioner" />
       </div>
     </div>
     <NavigationBar />
