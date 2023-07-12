@@ -20,7 +20,7 @@ const Commitment = () => {
       </div>
       <div className="button-commitment-wrapper">
           <Button onClick={() => window.open("https://drive.google.com/drive/folders/1-2DP0qFZ4rq5Gt5oC6jaX7ag2afQ8odS", "_blank")} name="Download Materi" />
-          <Button onClick={() => navigate('/main/survey')} name="Absensi/Isi Kuesioner" />
+          <Button onClick={() => navigate('/main/survey')} name="Isi Absensi/Kuesioner" />
       </div>
     </div>
     <NavigationBar />
