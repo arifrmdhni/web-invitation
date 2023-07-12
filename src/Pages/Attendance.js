@@ -142,7 +142,7 @@ const Attendance = () => {
               </div>
             </div>
             <div className="input-container">
-              <div className="select-wrapper">
+              <div className="select-wrapper mobile-wrapper">
                 <label className="" htmlFor="jenis">Peserta Online/Offline:</label>
                 <select htmlFor="jenis" onChange={(e) => {setJenisPeserta(e.target.value); handleInputType()}} name="jenis_peserta" value={jenis_peserta} required>
                   <option htmlFor="jenis" readOnly>-- Pilih Opsi Online/Offline --</option>
@@ -150,7 +150,7 @@ const Attendance = () => {
                   <option htmlFor="jenis" value="offline">Offline</option>
                 </select>
               </div>
-              <div className="select-wrapper">
+              <div className="select-wrapper mobile-wrapper">
                 <label className="" htmlFor="sesi">Sesi Kehadiran:</label>
                 <select htmlFor="sesi" onChange={(e) => {setSesiAttendance(e.target.value); handleInputType()}} name="sesi_attendance" value={sesi_attendance} required>
                   <option htmlFor="sesi" readOnly>-- Pilih Opsi Sesi --</option>
