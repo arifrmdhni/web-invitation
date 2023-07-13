@@ -65,52 +65,52 @@ const Rundown = () => {
               Day 2 (Jumat, 14 Juli 2023)
             </h4>
             <div className="rundown-template">
-              <h5 className="rundown-time-text">07:00 – 07:55</h5>
+              <h5 className="rundown-time-text">07:00 – 08:25</h5>
               <div className="rundown-description-wrapper">
                 <p className="rundown-description-text">Registrasi peserta pelatihan</p>
               </div>
             </div>
             <div className="rundown-template">
-              <h5 className="rundown-time-text">07:55 – 08:00</h5>
+              <h5 className="rundown-time-text">08:25 – 08:30</h5>
               <div className="rundown-description-wrapper">
                 <p className="rundown-description-text">Pembukaan</p>
               </div>
             </div>
             <div className="rundown-template">
-              <h5 className="rundown-time-text">08:00 – 08:05</h5>
+              <h5 className="rundown-time-text">08:30 – 08:35</h5>
               <div className="rundown-description-wrapper">
                 <p className="rundown-description-text">Menyanyikan Lagu Indonesia Raya</p>
               </div>
             </div>
             <div className="rundown-template">
-              <h5 className="rundown-time-text">08:05 – 08:10</h5>
+              <h5 className="rundown-time-text">08:35 – 08:50</h5>
               <div className="rundown-description-wrapper">
-                <p className="rundown-description-text">Sambutan Corsec Bank BTN</p>
+                <p className="rundown-description-text">Laporan Corsec Bank BTN</p>
                 <p className="rundown-description-text"><strong>Ramon Armando </strong>(Corporate Secretary Division Head)</p>
               </div>
             </div>
             <div className="rundown-template">
-              <h5 className="rundown-time-text">08:10 – 08:40</h5>
-              <div className="rundown-description-wrapper">
-                <p className="rundown-description-text">Sambutan Direksi Bank BTN</p>
-                <p className="rundown-description-text"><strong>Eko Waluyo </strong>(Direktur Human Capital, Compliance, and Legal)</p>
-              </div>
-            </div>
-            <div className="rundown-template">
-              <h5 className="rundown-time-text">08:40 – 09:40</h5>
+              <h5 className="rundown-time-text">08:50 – 09:50</h5>
               <div className="rundown-description-wrapper">
                 <p className="rundown-description-text">Keynote Speech + QnA</p>
                 <p className="rundown-description-text"><strong>Arya Sinulingga </strong>(Staf Khusus III Menteri BUMN)</p>
               </div>
             </div>
             <div className="rundown-template">
-              <h5 className="rundown-time-text">09:40 – 09:45</h5>
+              <h5 className="rundown-time-text">09:50 – 10:00</h5>
               <div className="rundown-description-wrapper">
                 <p className="rundown-description-text">Coffe Break</p>
               </div>
             </div>
             <div className="rundown-template">
-              <h5 className="rundown-time-text">09:45 – 11:45</h5>
+              <h5 className="rundown-time-text">10:00 – 10:30</h5>
+              <div className="rundown-description-wrapper">
+                <p className="rundown-description-text">Sambutan Direksi Bank BTN</p>
+                <p className="rundown-description-text"><strong>Eko Waluyo </strong>(Direktur Human Capital, Compliance, and Legal)</p>
+              </div>
+            </div>
+            <div className="rundown-template">
+              <h5 className="rundown-time-text">10:30 – 11:45</h5>
               <div className="rundown-description-wrapper">
                 <p className="rundown-description-text">Pengajar 1</p>
                 <p className="rundown-description-text"><strong>Febrina Siahaan </strong>(Professional Consultant in Media & Communication)</p>
