@@ -38,6 +38,7 @@ const Questionnaire = () => {
       });
     });
   }
+
   const form = useRef();
 
   const [user_name, setUserName] = useState('');
@@ -107,25 +108,14 @@ const Questionnaire = () => {
     }, 4000)
   }
 
-  window.onload = () => {
-    const radioButtonYa = document.getElementById("otherAnswer7")
-    const radioButtonNot = document.getElementById("answer7")
-    const inputOtherAnswer = document.getElementById("inputOtherAnswer")
-
-    radioButtonYa.addEventListener("click", function() {
-      inputOtherAnswer.classList.remove("hidden")
-    })
-    radioButtonNot.addEventListener("click", function() {
-      inputOtherAnswer.classList.add("hidden")
-    })
-  }
-
   const [showLoader, setShowLoader] = React.useState(false)
   
   const onSubmit = () => {
     setShowLoader(true)
     setTimeout(() => setShowLoader(false), 1000)
   }
+
+  // const [value_7, setValue7] = useState("Ya");
 
   return (
     <>
@@ -260,7 +250,7 @@ const Questionnaire = () => {
                   <ul>
                     <li>
                       <input onChange={(e) => {setAnswer7(e.target.value); }} type="radio" value="Ya" name="answer_7" id="otherAnswer7" required/> Ya
-                      <input onChange={(e) => {setAnswer7(e.target.value); }} type="text" className="input-answer" name="answer_7" id="inputOtherAnswer" placeholder="seberapa sering?"/>
+                      {answer_7 === "" || answer_7 === "Tidak" ? <input onChange={(e) => {setAnswer7(e.target.value); }} type="text" className="input-answer hidden" name="answer_7" id="inputOtherAnswer" placeholder="seberapa sering?"/> : <input onChange={(e) => {setAnswer7(e.target.value); }} type="text" className="input-answer" name="answer_7" id="inputOtherAnswer" placeholder="seberapa sering?" required/>}
                     </li>
                     <li>
                       <input onChange={(e) => {setAnswer7(e.target.value); }} type="radio" value="Tidak" name="answer_7" id="answer7" /> Tidak
