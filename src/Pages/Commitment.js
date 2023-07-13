@@ -19,7 +19,7 @@ const Commitment = () => {
         </div>
       </div>
       <div className="button-commitment-wrapper">
-          <Button name="Materi" />
+          <Button onClick={() => window.open("https://drive.google.com/drive/folders/1RQ9nrkigSpcEH10otX5CpF6C41D5skeK?usp=sharing", "_blank")} name="Materi" />
           <Button onClick={() => navigate('/main/survey')} name="Absensi/Kuesioner" />
       </div>
     </div>
