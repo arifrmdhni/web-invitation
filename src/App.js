@@ -22,6 +22,7 @@ import audioBacksound from "./assets/backsound.mp3"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import MorningAttendance from "./Pages/MorningAttendance";
+import Copyright from "./Components/Copyright";
 
 function App() {
   const [playing, toggleSound] = UseAudio(audioBacksound)
@@ -63,6 +64,7 @@ function App() {
           </button>
         </div>
       </Router>
+      <Copyright />
     </div>
     </>
   );
