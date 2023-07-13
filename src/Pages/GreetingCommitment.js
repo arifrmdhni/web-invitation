@@ -58,24 +58,24 @@ const GreetingCommitment = () => {
       console.log(error.text)
     })
 
-    const data = {
-      Nama: user_name,
-      NIP: user_nip,
-      Unit_Kerja: unit_kerja,
-      Posisi: posisi,
-      Saran_Masukan: message,
-      Date: date.toLocaleDateString(),
-      Time: time.toLocaleTimeString()
-    }
-    axios.post('https://sheet.best/api/sheets/ccfa1a93-a802-4dd6-9860-f3de675c1541', data).then((response) => {
-      setUserName('')
-      setUserNip('')
-      setUnitKerja('')
-      setPosisi('')
-      setMessage('')
-      setDate('')
-      setTime('')
-    })
+    // const data = {
+    //   Nama: user_name,
+    //   NIP: user_nip,
+    //   Unit_Kerja: unit_kerja,
+    //   Posisi: posisi,
+    //   Saran_Masukan: message,
+    //   Date: date.toLocaleDateString(),
+    //   Time: time.toLocaleTimeString()
+    // }
+    // axios.post('https://sheet.best/api/sheets/ccfa1a93-a802-4dd6-9860-f3de675c1541', data).then((response) => {
+    //   setUserName('')
+    //   setUserNip('')
+    //   setUnitKerja('')
+    //   setPosisi('')
+    //   setMessage('')
+    //   setDate('')
+    //   setTime('')
+    // })
 
     setTimeout(function() {
       window.location.reload()
