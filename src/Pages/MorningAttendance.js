@@ -91,9 +91,9 @@ const MorningAttendance = () => {
       title: 'Attendance Submitted, dont forget to attendance again next session!'
     })
 
-    // setTimeout(function() {
-    //   window.location.reload()
-    // }, 4000)
+    setTimeout(function() {
+      window.location = "/main/attendance"
+    }, 4000)
   }
 
   const [showLoader, setShowLoader] = React.useState(false)
