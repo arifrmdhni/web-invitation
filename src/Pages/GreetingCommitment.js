@@ -161,7 +161,7 @@ const GreetingCommitment = () => {
             <legend>Pertanyaan:</legend>
             <div className="input-container">
               <div className="question-wrapper">
-              <label className="title-question">1. <span className="text-indent">Apakah Anda puas dengan pelatihan media handling hari ini</span></label>
+              <label className="title-question">1. <span className="text-indent">Apakah Anda puas dengan pelatihan media handling hari ini?</span></label>
                 <div className="answer-wrapper">
                   <ul>
                     <li>
