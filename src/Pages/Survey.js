@@ -104,7 +104,7 @@ const Questionnaire = () => {
     })
 
     setTimeout(function() {
-      window.location = "/main/morning-attendance"
+      window.location = "/main/attendance"
     }, 4000)
   }
 
