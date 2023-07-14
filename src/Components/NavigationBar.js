@@ -14,6 +14,15 @@ const NavigationBar = () => {
             <span className="click-effect"></span>
           </div>
         </button>
+        <button onClick={() => navigate('/main/greeting-commitment')} className="navigation-button">
+          <div className="svg-wrapper">
+            <svg className="button-icon" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AutoStoriesIcon" height={24}>
+              <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z" fill="rgb(255, 255, 255)"></path>
+            </svg>
+            <div className="button-text">Greeting Commitment</div>
+            <span className="click-effect"></span>
+          </div>
+        </button>
         <button onClick={() => navigate('/main/attendance')} className="navigation-button">
           <div className="svg-wrapper">
           <svg className="button-icon" xmlns="http://www.w3.org/2000/svg" height={24} viewBox="0 0 384 512"><path d="M192 0c-41.8 0-77.4 26.7-90.5 64H64C28.7 64 0 92.7 0 128V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H282.5C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM128 256a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM80 432c0-44.2 35.8-80 80-80h64c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16z" fill="rgb(255, 255, 255)"/></svg>
@@ -55,15 +64,6 @@ const NavigationBar = () => {
               <path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" fill="rgb(255, 255, 255)"></path>
             </svg>
             <div className="button-text">Entertainment</div>
-            <span className="click-effect"></span>
-          </div>
-        </button>
-        <button onClick={() => navigate('/main/greeting-commitment')} className="navigation-button">
-          <div className="svg-wrapper">
-            <svg className="button-icon" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AutoStoriesIcon" height={24}>
-              <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z" fill="rgb(255, 255, 255)"></path>
-            </svg>
-            <div className="button-text">Greeting Commitment</div>
             <span className="click-effect"></span>
           </div>
         </button>
