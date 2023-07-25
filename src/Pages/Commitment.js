@@ -19,8 +19,8 @@ const Commitment = () => {
         </div>
       </div>
       <div className="button-commitment-wrapper">
-          <Button onClick={() => window.open("https://drive.google.com/drive/folders/1NVs9Kj0k_xVnKY_PM92pd746hNyIr-id", "_blank")} name="Materi" />
-          <Button onClick={() => navigate('/main/attendance')} name="Absensi/Kuesioner" />
+          <Button onClick={() => window.open("https://drive.google.com/drive/folders/1RQ9nrkigSpcEH10otX5CpF6C41D5skeK?usp=sharing", "_blank")} name="Materi" />
+          <Button onClick={() => window.open("https://drive.google.com/drive/folders/1NVs9Kj0k_xVnKY_PM92pd746hNyIr-id", "_blank")} name="Gallery" />
       </div>
     </div>
     <NavigationBar />
